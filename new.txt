@@ -1,1 +1,7 @@
+<<<<<<< HEAD
 miclo este es un cambio 
+=======
+miclo
+
+Tu borraste lo mio
+>>>>>>> origin/master

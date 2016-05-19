@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-locas
-=======
-Hi Loca!
->>>>>>> origin/master
+miclo

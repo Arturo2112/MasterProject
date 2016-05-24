@@ -17,5 +17,16 @@ class DefaultController extends Controller
         return $this->render('default/index.html.twig', [
             'base_dir' => realpath($this->getParameter('kernel.root_dir').'/..'),
         ]);
+
+    }
+
+    /**
+     * @Route("/hello-world", name="helloWorld")
+     */
+
+    public function helloWorldAction()
+    {
+       echo "<h1>Hola MIclo</h1>";
+        die();
     }
 }

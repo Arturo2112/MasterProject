@@ -29,4 +29,14 @@ class DefaultController extends Controller
        echo "<h1>Hola MIclo</h1>";
         die();
     }
+	
+	/**
+     * @Route("/fin", name="fin")
+     */
+
+    public function fin()
+    {
+       echo "<h1>Hola Mundo sin Action</h1>";
+        die();
+    }
 }
